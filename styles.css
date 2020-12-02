@@ -15,11 +15,20 @@ div.container {
     transform: translate(-50%, -50%);
     }
 
+div.subtitle {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2em;
+    vertical-align: center; 
+    text-align: center;
+    letter-spacing: 10px;
+    padding-bottom: 12px;
+    padding-top: 5px;
+}
+
 div.title {
     font-family: Lobster;
     font-size: 3.6em;
     font-weight:bold;
-    padding: 10px;
     vertical-align: center;
     text-align: center;
 }
@@ -41,9 +50,16 @@ img:hover {
         font-family: Lobster;
         font-size: 10vw;
         font-weight:bold;
-        padding: 10px;
         vertical-align: center;
         text-align: center;
+    }
+    div.subtitle {
+        font-family: 'Raleway', sans-serif;
+        font-size: 3vw;
+        vertical-align: center; 
+        text-align: center;
+        letter-spacing: 10px;
+        padding-bottom: 12px;
     }
     img {
         width: 15%;
