@@ -6,6 +6,7 @@ body{
     background-image: linear-gradient(white, #CFF7F0)
 }
 div.container {
+    width: 100%;
     margin: 0;
     position: absolute;
     top: 50%;
@@ -16,7 +17,7 @@ div.container {
 
 div.title {
     font-family: Lobster;
-    font-size: 3.2em;
+    font-size: 10vw;
     font-weight:bold;
     padding: 10px;
     vertical-align: center;
@@ -30,23 +31,6 @@ img {
     align-items: center;
 }
 @media only screen and (min-width: 375px) and (max-width: 670px) and (orientation: portrait) { 
-    div.container{
-        width: 100%;
-        margin: 0;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        -ms-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-    }
-    div.title {
-        font-family: Lobster;
-        font-size: 10vw;
-        font-weight:bold;
-        padding: 10px;
-        vertical-align: center;
-        text-align: center;
-    }
     img {
         width: 15%;
         height: 15%;
