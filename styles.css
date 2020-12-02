@@ -1,6 +1,7 @@
-html, body{
-    height:100%;
+html,body{
+    height:100%
 }
+
 body{
     background-image: linear-gradient(white, #CFF7F0)
 }
@@ -12,6 +13,7 @@ div.container {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     }
+
 div.title {
     font-family: Lobster;
     font-size: 3.2em;
@@ -26,4 +28,20 @@ img {
     height: 15%;
     padding: 1%;
     align-items: center;
+}
+@media only screen and (min-width: 375px) and (orientation: portrait) { 
+    div.title {
+        font-family: Lobster;
+        font-size: 70vw;
+        font-weight:bold;
+        padding: 10px;
+        vertical-align: center;
+        text-align: center;
+    }
+    img {
+        width: 30%;
+        height: 30%;
+        padding: 1%;
+        align-items: center;
+    }
 }
