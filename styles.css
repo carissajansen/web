@@ -3,7 +3,7 @@ html,body{
 }
 
 body{
-    background-image: linear-gradient(black, #CFF7F0)
+    background-image: linear-gradient(white, #CFF7F0)
 }
 div.container {
     width: 100%;
