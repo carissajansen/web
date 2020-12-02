@@ -32,15 +32,15 @@ img {
 @media only screen and (min-width: 375px) and (orientation: portrait) { 
     div.title {
         font-family: Lobster;
-        font-size: 70vw;
+        font-size: 20vw;
         font-weight:bold;
         padding: 10px;
         vertical-align: center;
         text-align: center;
     }
     img {
-        width: 30%;
-        height: 30%;
+        width: 15%;
+        height: 15%;
         padding: 1%;
         align-items: center;
     }
