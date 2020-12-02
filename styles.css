@@ -1,0 +1,27 @@
+body{
+    background-image: linear-gradient(white, #CFF7F0)
+}
+div.container {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    }
+
+div.title {
+    font-family: Lobster;
+    font-size: 50px;
+    font-weight:bold;
+    padding: 10px;
+    vertical-align: center;
+    text-align: center;
+}
+
+img {
+    width: 75px;
+    height: 75px;
+    padding: 10px;
+    align-items: center;
+}
