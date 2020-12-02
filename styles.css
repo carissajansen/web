@@ -3,7 +3,7 @@ html,body{
 }
 
 body{
-    background-image: linear-gradient(lavender, #CFF7F0)
+    background-image: linear-gradient(white, #CFF7F0)
 }
 div.container {
     width: 100%;
@@ -17,7 +17,7 @@ div.container {
 
 div.title {
     font-family: Lobster;
-    font-size: 3.2em;
+    font-size: 3.6em;
     font-weight:bold;
     padding: 10px;
     vertical-align: center;
@@ -25,8 +25,8 @@ div.title {
 }
 
 img {
-    width: 10%;
-    height: 10%;
+    width: 100px;
+    height: 100px;
     padding: 1%;
     align-items: center;
 }
